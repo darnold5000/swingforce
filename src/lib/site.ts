@@ -23,6 +23,8 @@ export const site = {
   hoursLabel: "Monday–Sunday",
   hoursValue: "Appointment only",
   hoursNote: "Private club — not open to the public.",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=LaGrange+OH",
+  mapsEmbed: "https://maps.google.com/maps?q=LaGrange%2C%20OH&z=13&output=embed",
   social: {
     instagram: "https://instagram.com/swingforceohio",
     facebook: "https://facebook.com/profile.php?id=61579654184529",

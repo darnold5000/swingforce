@@ -51,6 +51,21 @@ export default function ContactPage() {
                 <dd className="mt-1 text-white/80">{site.hoursNote}</dd>
               </div>
             </dl>
+            <div className="mt-6 overflow-hidden border border-white/10">
+              <iframe
+                title={`Map of ${locationLine}`}
+                src={site.mapsEmbed}
+                className="h-48 w-full border-0 grayscale md:h-56"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+            <a
+              href={site.mapsUrl}
+              className="mt-3 inline-block text-xs font-semibold tracking-[0.14em] text-[#f70d0d] uppercase hover:text-[#ff2a2a]"
+            >
+              Open {locationLine} in Google Maps
+            </a>
           </div>
           <ContactForm />
         </div>
